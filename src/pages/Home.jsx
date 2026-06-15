@@ -1,0 +1,35 @@
+import React from "react";
+import Navbar from "@/components/navigation/Navbar";
+import Footer from "@/components/navigation/Footer";
+import GroupHero from "@/components/home/GroupHero";
+import SectorPortals from "@/components/home/SectorPortals";
+import AboutSection from "@/components/home/AboutSection";
+import ContactSection from "@/components/home/ContactSection";
+import PageTransition from "@/components/shared/PageTransition";
+
+// Workspace images — branded environments showing real Heiven work contexts
+const IMAGES = {
+  hero: "https://media.base44.com/images/public/6a305098afe0751767e21de8/a3866ca2e_generated_image.png",
+  tech: "https://media.base44.com/images/public/6a305098afe0751767e21de8/84b5a9931_generated_image.png",
+  energy:
+    "https://media.base44.com/images/public/6a305098afe0751767e21de8/0e8d49a09_generated_image.png",
+  minerals:
+    "https://media.base44.com/images/public/6a305098afe0751767e21de8/878dcdfcc_generated_image.png",
+};
+
+export default function Home() {
+  return (
+    <PageTransition color="#29ABE2">
+      <Navbar />
+      <GroupHero heroImage={IMAGES.hero} />
+      <SectorPortals
+        techImage={IMAGES.tech}
+        energyImage={IMAGES.energy}
+        mineralsImage={IMAGES.minerals}
+      />
+      <AboutSection />
+      <ContactSection />
+      <Footer />
+    </PageTransition>
+  );
+}
