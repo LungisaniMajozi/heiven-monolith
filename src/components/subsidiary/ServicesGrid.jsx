@@ -53,6 +53,19 @@ export default function ServicesGrid({
                   {service.description}
                 </p>
               )}
+              {service.link && (
+                <div className="mt-4">
+                  <a
+                    href={service.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-sm font-bold hover:underline transition-all duration-300"
+                    style={{ color: accentColor }}
+                  >
+                    {service.linkText || "Learn More"} &rarr;
+                  </a>
+                </div>
+              )}
             </motion.div>
           ))}
         </div>

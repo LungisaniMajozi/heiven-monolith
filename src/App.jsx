@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import PageNotFound from "./lib/PageNotFound";
 import ScrollToTop from "@/components/ui/ScrollToTop";
 import { AnimatePresence } from "framer-motion";

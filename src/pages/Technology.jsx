@@ -32,9 +32,11 @@ const SERVICES = [
     description: "Urban densification, 5G deployment, smart city connectivity.",
   },
   {
-    title: "FiberCo",
+    title: "Heiven Fiber (FiberCo)",
     description:
       "FTTH, FTTB, dark fiber leasing, metro and long-haul fiber networks.",
+    link: "https://heiven-sales.vercel.app/",
+    linkText: "Order Heiven Fiber",
   },
   {
     title: "Mobile Network & Digital Services",
@@ -50,6 +52,8 @@ const SERVICES = [
     title: "Heiven Stores",
     description:
       "Mobile phones, accessories, gadgets, laptops, repairs, device financing and insurance.",
+    link: "https://heiven-website.vercel.app/",
+    linkText: "Visit Heiven Telecoms",
   },
   {
     title: "VoIP & Unified Communications",
