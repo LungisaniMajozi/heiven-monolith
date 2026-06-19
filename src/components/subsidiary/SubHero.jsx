@@ -62,47 +62,16 @@ export default function SubHero({ variant, slogan, description, heroImage }) {
             {description}
           </motion.p>
 
-          <div className="flex flex-wrap gap-4 mt-10">
-            {variant === "technology" ? (
-              <>
-                <motion.a
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.9 }}
-                  href="https://heiven-website.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-8 py-4 text-white font-semibold text-sm tracking-wider uppercase rounded-full hover:scale-105 transition-transform"
-                  style={{ backgroundColor: BLUE }}
-                >
-                  Heiven Telecoms
-                </motion.a>
-                <motion.a
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 1.0 }}
-                  href="https://heiven-sales.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block px-8 py-4 text-white font-semibold text-sm tracking-wider uppercase rounded-full hover:scale-105 transition-transform border border-white/20 hover:border-white/40"
-                  style={{ backgroundColor: "rgba(255,255,255,0.08)" }}
-                >
-                  Heiven Fiber
-                </motion.a>
-              </>
-            ) : (
-              <motion.a
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.9 }}
-                href="#services"
-                className="inline-block px-8 py-4 text-white font-semibold text-sm tracking-wider uppercase rounded-full hover:scale-105 transition-transform"
-                style={{ backgroundColor: BLUE }}
-              >
-                Our Services
-              </motion.a>
-            )}
-          </div>
+          <motion.a
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.9 }}
+            href="#services"
+            className="mt-10 inline-block px-8 py-4 text-white font-semibold text-sm tracking-wider uppercase rounded-full hover:scale-105 transition-transform"
+            style={{ backgroundColor: BLUE }}
+          >
+            Our Services
+          </motion.a>
         </div>
       </div>
     </section>

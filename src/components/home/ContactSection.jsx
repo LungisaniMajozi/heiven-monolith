@@ -25,7 +25,7 @@ export default function ContactSection() {
             </h2>
             <p className="mt-4 text-base sm:text-lg text-heiven-charcoal/60 leading-relaxed max-w-md">
               Whether you're looking for telecommunications infrastructure,
-              energy solutions, or mineral resources — Heiven Group is ready to
+              energy solutions, mineral resources, or smart electronics — Heiven Group is ready to
               deliver.
             </p>
 
@@ -84,7 +84,7 @@ export default function ContactSection() {
               </h3>
               <p className="mt-4 text-white/60 leading-relaxed">
                 Connect with our team to explore partnership opportunities
-                across Technology, Energy, and Minerals sectors.
+                across Telecommunications, Energy, Minerals, and Electronics sectors.
               </p>
               <a
                 href="mailto:info@heivengroup.com"

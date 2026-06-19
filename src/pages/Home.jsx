@@ -10,11 +10,10 @@ import PageTransition from "@/components/shared/PageTransition";
 // Workspace images — branded environments showing real Heiven work contexts
 const IMAGES = {
   hero: "https://media.base44.com/images/public/6a305098afe0751767e21de8/a3866ca2e_generated_image.png",
-  tech: "https://media.base44.com/images/public/6a305098afe0751767e21de8/84b5a9931_generated_image.png",
-  energy:
-    "https://media.base44.com/images/public/6a305098afe0751767e21de8/0e8d49a09_generated_image.png",
-  minerals:
-    "https://media.base44.com/images/public/6a305098afe0751767e21de8/878dcdfcc_generated_image.png",
+  telecoms: "/images/telecoms1.jpeg",
+  energy: "/images/energy_firms.jpeg",
+  minerals: "/images/mine_truck.jpeg",
+  electronics: "/images/electronics_hero.png",
 };
 
 export default function Home() {
@@ -23,9 +22,10 @@ export default function Home() {
       <Navbar />
       <GroupHero heroImage={IMAGES.hero} />
       <SectorPortals
-        techImage={IMAGES.tech}
+        telecomsImage={IMAGES.telecoms}
         energyImage={IMAGES.energy}
         mineralsImage={IMAGES.minerals}
+        electronicsImage={IMAGES.electronics}
       />
       <AboutSection />
       <ContactSection />

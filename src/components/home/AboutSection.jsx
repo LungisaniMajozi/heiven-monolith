@@ -14,7 +14,7 @@ const values = [
     icon: Zap,
     title: "Innovation Driven",
     description:
-      "From 5G rollouts to renewable energy and mineral beneficiation — we lead with cutting-edge technology and operational excellence.",
+      "From 5G rollouts to renewable energy, smart electronics, and mineral beneficiation — we lead with cutting-edge technology and operational excellence.",
   },
   {
     icon: Mountain,
@@ -38,7 +38,7 @@ export default function AboutSection() {
           label="About Heiven Group"
           color="#29ABE2"
           title="Powering Progress Across Africa"
-          description="Heiven Group is a diversified African industrial conglomerate with operations spanning telecommunications and digital infrastructure, energy solutions, and mineral resources. Our mission is to build, own, manage, and operate world-class infrastructure that drives sustainable development."
+          description="Heiven Group is a diversified African industrial conglomerate with operations spanning telecommunications and digital infrastructure, energy solutions, mineral resources, and electronics manufacturing. Our mission is to build, own, manage, and operate world-class infrastructure that drives sustainable development."
         />
 
         <div className="mt-16 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -7,12 +7,10 @@ import ServicesGrid from "@/components/subsidiary/ServicesGrid";
 import TargetMarkets from "@/components/subsidiary/TargetMarkets";
 import PageTransition from "@/components/shared/PageTransition";
 
-// Hero: telecom tower / field engineer
-const HERO_IMAGE =
-  "https://media.base44.com/images/public/6a305098afe0751767e21de8/224b1ad5c_generated_image.png";
-// Vision/Mission: NOC workspace clearly branded Heiven Telecoms
-const TEAM_IMAGE =
-  "https://media.base44.com/images/public/6a305098afe0751767e21de8/84b5a9931_generated_image.png";
+// Hero: telecom tower
+const HERO_IMAGE = "/images/telecoms_first_tower.jpeg";
+// Vision/Mission: telecoms equipment/operations
+const TEAM_IMAGE = "/images/telecoms_seconnd_tower.jpeg";
 
 const BLUE = "#29ABE2";
 
@@ -88,13 +86,13 @@ const MARKETS = [
   "Consumers",
 ];
 
-export default function Technology() {
+export default function Telecoms() {
   return (
     <PageTransition color={BLUE}>
       <Navbar />
       <SubHero
-        variant="technology"
-        slogan="Connecting Africa Through Innovation, Infrastructure & Technology."
+        variant="telecoms"
+        slogan="Connecting Africa Through Innovation, Infrastructure & Telecoms."
         description="Heiven Telecoms is a diversified telecommunications and digital infrastructure company specializing in TowerCo, FiberCo, mobile device manufacturing, VoIP, retail telecommunications, and digital connectivity solutions across Africa."
         heroImage={HERO_IMAGE}
       />
@@ -102,7 +100,7 @@ export default function Technology() {
         vision="To become a leading telecommunications and digital infrastructure provider in Africa."
         mission="To build, own, manage and operate world-class telecommunications infrastructure and technology platforms."
         teamImage={TEAM_IMAGE}
-        variant="technology"
+        variant="telecoms"
       />
       <ServicesGrid
         label="Core Business Divisions"

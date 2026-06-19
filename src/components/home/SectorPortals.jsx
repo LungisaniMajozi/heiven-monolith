@@ -9,11 +9,11 @@ import HeivenLogo from "@/components/HeivenLogo";
 const SECTORS = [
   {
     name: "Heiven Telecoms",
-    variant: "technology",
+    variant: "telecoms",
     slogan:
-      "Connecting Africa Through Innovation, Infrastructure & Technology.",
+      "Connecting Africa Through Innovation, Infrastructure & Telecoms.",
     tint: "rgba(41, 171, 226, 0.75)",
-    path: "/technology",
+    path: "/telecoms",
   },
   {
     name: "Heiven Energy",
@@ -29,26 +29,34 @@ const SECTORS = [
     tint: "rgba(20, 80, 120, 0.80)",
     path: "/minerals",
   },
+  {
+    name: "Heiven Electronics",
+    variant: "electronics",
+    slogan: "Engineering Innovation. Manufacturing Excellence.",
+    tint: "rgba(41, 171, 226, 0.75)",
+    path: "/electronics",
+  },
 ];
 
 export default function SectorPortals({
-  techImage,
+  telecomsImage,
   energyImage,
   mineralsImage,
+  electronicsImage,
 }) {
-  const images = [techImage, energyImage, mineralsImage];
+  const images = [telecomsImage, energyImage, mineralsImage, electronicsImage];
 
   return (
     <section id="sectors" className="py-24 sm:py-32 lg:py-40 bg-white">
       <div className="max-w-[120rem] mx-auto px-4 sm:px-6 lg:px-10 xl:px-16">
         <SectionHeading
           label="Our Sectors"
-          title="Three Industries. One Vision."
-          description="From telecommunications infrastructure to sustainable energy and mineral resources — Heiven Group drives progress across Africa's most vital sectors."
+          title="Four Industries. One Vision."
+          description="From telecommunications and SMT electronics manufacturing to sustainable energy and mineral resources — Heiven Group drives progress across Africa's most vital sectors."
           color="#29ABE2"
         />
 
-        <div className="mt-16 sm:mt-20 grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="mt-16 sm:mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 lg:gap-8">
           {SECTORS.map((sector, i) => (
             <SectorCard
               key={sector.path}

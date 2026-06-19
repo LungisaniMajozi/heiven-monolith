@@ -17,8 +17,8 @@ export default function Footer() {
               className="mb-6"
             />
             <p className="text-white/50 text-sm leading-relaxed max-w-xs">
-              A diversified African industrial group operating across
-              Technology, Energy, and Minerals sectors.
+              A diversified African industrial conglomerate operating across
+              Telecommunications, Energy, Minerals, and Electronics sectors.
             </p>
           </div>
 
@@ -29,7 +29,7 @@ export default function Footer() {
             </h4>
             <div className="flex flex-col gap-3">
               <Link
-                to="/technology"
+                to="/telecoms"
                 className="text-sm text-white/60 hover:text-[#29ABE2] transition-colors"
               >
                 Heiven Telecoms
@@ -45,6 +45,12 @@ export default function Footer() {
                 className="text-sm text-white/60 hover:text-[#29ABE2] transition-colors"
               >
                 Heiven Minerals
+              </Link>
+              <Link
+                to="/electronics"
+                className="text-sm text-white/60 hover:text-[#29ABE2] transition-colors"
+              >
+                Heiven Electronics
               </Link>
             </div>
           </div>
@@ -79,6 +85,12 @@ export default function Footer() {
               >
                 Contact
               </a>
+              <Link
+                to="/ceo"
+                className="text-sm text-white/60 hover:text-white transition-colors"
+              >
+                CEO Message
+              </Link>
             </div>
           </div>
 

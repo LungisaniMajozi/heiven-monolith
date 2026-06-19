@@ -54,8 +54,8 @@ export default function GroupHero({ heroImage }) {
             transition={{ duration: 0.8, delay: 0.7 }}
             className="mt-6 text-lg sm:text-xl text-white/70 leading-relaxed max-w-xl"
           >
-            A diversified industrial group powering progress across Technology,
-            Energy, and Minerals — driving sustainable growth and innovation
+            A diversified industrial conglomerate powering progress across Telecommunications,
+            Energy, Minerals, and Electronics — driving sustainable growth and innovation
             across the African continent.
           </motion.p>
 

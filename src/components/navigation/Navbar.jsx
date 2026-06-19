@@ -6,23 +6,29 @@ import HeivenLogo from "@/components/HeivenLogo";
 
 const SECTOR_COLORS = {
   "/": "#29ABE2",
-  "/technology": "#29ABE2",
+  "/telecoms": "#29ABE2",
   "/energy": "#29ABE2",
   "/minerals": "#29ABE2",
+  "/electronics": "#29ABE2",
+  "/ceo": "#29ABE2",
 };
 
 const NAV_LINKS = [
   { label: "Group", path: "/" },
-  { label: "Technology", path: "/technology" },
+  { label: "Telecoms", path: "/telecoms" },
   { label: "Energy", path: "/energy" },
   { label: "Minerals", path: "/minerals" },
+  { label: "Electronics", path: "/electronics" },
+  { label: "CEO Message", path: "/ceo" },
 ];
 
 const VARIANT_MAP = {
   "/": "group",
-  "/technology": "technology",
+  "/telecoms": "telecoms",
   "/energy": "energy",
   "/minerals": "minerals",
+  "/electronics": "electronics",
+  "/ceo": "group",
 };
 
 export default function Navbar() {
