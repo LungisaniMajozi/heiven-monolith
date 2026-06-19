@@ -9,10 +9,10 @@ import PageTransition from "@/components/shared/PageTransition";
 
 // Hero: solar farm / field engineer
 const HERO_IMAGE =
-  "https://media.base44.com/images/public/6a305098afe0751767e21de8/3f9bc6eb8_generated_image.png";
+  "/images/energy_truck.jpeg";
 // Vision/Mission: energy control room branded Heiven Energy
 const TEAM_IMAGE =
-  "https://media.base44.com/images/public/6a305098afe0751767e21de8/0e8d49a09_generated_image.png";
+  "/images/energy_firms.jpeg";
 
 const BLUE = "#29ABE2";
 

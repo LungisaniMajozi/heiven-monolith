@@ -13,10 +13,10 @@ export default function EcosystemSuggestions() {
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
-        className="pointer-events-auto flex items-center gap-2.5 px-6 py-3.5 bg-neutral-950 text-white rounded-full hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-black/35 font-heading text-sm font-bold tracking-wide border border-neutral-800"
+        className="pointer-events-auto flex items-center gap-2.5 px-6 py-3.5 bg-[#29ABE2] hover:bg-[#29ABE2]/90 text-white rounded-full hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-[#29ABE2]/20 font-heading text-sm font-bold tracking-wide"
       >
-        <Globe className="w-4 h-4 text-sky-400" />
-        <span>Main Site</span>
+        <Globe className="w-4 h-4" />
+        <span>You wanna know us more?</span>
       </motion.a>
 
       {/* Heiven Fiber Button */}
@@ -27,10 +27,10 @@ export default function EcosystemSuggestions() {
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="pointer-events-auto flex items-center gap-2.5 px-6 py-3.5 bg-sky-500 hover:bg-sky-400 text-white rounded-full hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-sky-500/20 font-heading text-sm font-bold tracking-wide"
+        className="pointer-events-auto flex items-center gap-2.5 px-6 py-3.5 bg-[#29ABE2] hover:bg-[#29ABE2]/90 text-white rounded-full hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-[#29ABE2]/20 font-heading text-sm font-bold tracking-wide"
       >
         <Wifi className="w-4 h-4" />
-        <span>Heiven Fiber</span>
+        <span>You wanna buy fibers?</span>
       </motion.a>
     </div>
   );

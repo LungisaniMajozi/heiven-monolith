@@ -12,10 +12,10 @@ import { Shield, Droplets, Leaf, Users, ChevronRight } from "lucide-react";
 
 // Hero: open-pit mine / geologist field
 const HERO_IMAGE =
-  "https://media.base44.com/images/public/6a305098afe0751767e21de8/0fa2d0189_generated_image.png";
+  "/images/mining_railway.jpeg";
 // Vision/Mission: mineral lab branded Heiven Minerals
 const TEAM_IMAGE =
-  "https://media.base44.com/images/public/6a305098afe0751767e21de8/878dcdfcc_generated_image.png";
+  "/images/mine_truck.jpeg";
 
 const BLUE = "#29ABE2";
 
