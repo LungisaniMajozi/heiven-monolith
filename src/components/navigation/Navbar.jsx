@@ -10,6 +10,7 @@ const SECTOR_COLORS = {
   "/energy": "#29ABE2",
   "/minerals": "#29ABE2",
   "/electronics": "#29ABE2",
+  "/shipping": "#29ABE2",
   "/ceo": "#29ABE2",
 };
 
@@ -19,6 +20,7 @@ const NAV_LINKS = [
   { label: "Energy", path: "/energy" },
   { label: "Minerals", path: "/minerals" },
   { label: "Electronics", path: "/electronics" },
+  { label: "Shipping", path: "/shipping" },
   { label: "CEO Message", path: "/ceo" },
 ];
 
@@ -28,6 +30,7 @@ const VARIANT_MAP = {
   "/energy": "energy",
   "/minerals": "minerals",
   "/electronics": "electronics",
+  "/shipping": "shipping",
   "/ceo": "group",
 };
 

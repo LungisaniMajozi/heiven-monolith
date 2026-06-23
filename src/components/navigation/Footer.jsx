@@ -52,6 +52,12 @@ export default function Footer() {
               >
                 Heiven Electronics
               </Link>
+              <Link
+                to="/shipping"
+                className="text-sm text-white/60 hover:text-[#29ABE2] transition-colors"
+              >
+                Heiven Shipping
+              </Link>
             </div>
           </div>
 

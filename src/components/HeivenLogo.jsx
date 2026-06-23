@@ -2,11 +2,12 @@ import React from "react";
 
 // Logo images from public folder
 const LOGO_IMAGES = {
-  group: "../group_logo.png",
+  group: "/group_logo.png",
   telecoms: "/telecoms_logo.png",
   energy: "/enegry_logo.png",
   minerals: "/minerals_logo.png",
   electronics: "/electronics_logo.png",
+  shipping: "/shiping_logo.png",
 };
 
 export default function HeivenLogo({

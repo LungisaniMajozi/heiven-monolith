@@ -36,6 +36,13 @@ const SECTORS = [
     tint: "rgba(41, 171, 226, 0.75)",
     path: "/electronics",
   },
+  {
+    name: "Heiven Shipping",
+    variant: "shipping",
+    slogan: "Moving Trade. Connecting Markets. Delivering Excellence.",
+    tint: "rgba(20, 80, 120, 0.75)",
+    path: "/shipping",
+  },
 ];
 
 export default function SectorPortals({
@@ -43,20 +50,27 @@ export default function SectorPortals({
   energyImage,
   mineralsImage,
   electronicsImage,
+  shippingImage,
 }) {
-  const images = [telecomsImage, energyImage, mineralsImage, electronicsImage];
+  const images = [
+    telecomsImage,
+    energyImage,
+    mineralsImage,
+    electronicsImage,
+    shippingImage,
+  ];
 
   return (
     <section id="sectors" className="py-24 sm:py-32 lg:py-40 bg-white">
       <div className="max-w-[120rem] mx-auto px-4 sm:px-6 lg:px-10 xl:px-16">
         <SectionHeading
           label="Our Sectors"
-          title="Four Industries. One Vision."
-          description="From telecommunications and SMT electronics manufacturing to sustainable energy and mineral resources — Heiven Group drives progress across Africa's most vital sectors."
+          title="Five Industries. One Vision."
+          description="From telecommunications and SMT electronics manufacturing to shipping, sustainable energy, and mineral resources — Heiven Group drives progress across Africa's most vital sectors."
           color="#29ABE2"
         />
 
-        <div className="mt-16 sm:mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 lg:gap-8">
+        <div className="mt-16 sm:mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 lg:gap-8">
           {SECTORS.map((sector, i) => (
             <SectorCard
               key={sector.path}

@@ -8,6 +8,7 @@ import Telecoms from "./pages/Telecoms";
 import Energy from "./pages/Energy";
 import Minerals from "./pages/Minerals";
 import Electronics from "./pages/Electronics";
+import Shipping from "./pages/Shipping";
 import CeoMessage from "./pages/CeoMessage";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/energy" element={<Energy />} />
           <Route path="/minerals" element={<Minerals />} />
           <Route path="/electronics" element={<Electronics />} />
+          <Route path="/shipping" element={<Shipping />} />
           <Route path="/ceo" element={<CeoMessage />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>

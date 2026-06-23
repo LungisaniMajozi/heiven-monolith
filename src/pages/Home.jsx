@@ -14,6 +14,7 @@ const IMAGES = {
   energy: "/images/energy_firms.jpeg",
   minerals: "/images/mine_truck.jpeg",
   electronics: "/images/electronics_hero.png",
+  shipping: "/images/shipping_hero.png",
 };
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
         energyImage={IMAGES.energy}
         mineralsImage={IMAGES.minerals}
         electronicsImage={IMAGES.electronics}
+        shippingImage={IMAGES.shipping}
       />
       <AboutSection />
       <ContactSection />

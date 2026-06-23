@@ -55,7 +55,7 @@ export default function GroupHero({ heroImage }) {
             className="mt-6 text-lg sm:text-xl text-white/70 leading-relaxed max-w-xl"
           >
             A diversified industrial conglomerate powering progress across Telecommunications,
-            Energy, Minerals, and Electronics — driving sustainable growth and innovation
+            Energy, Minerals, Electronics, and Shipping — driving sustainable growth and innovation
             across the African continent.
           </motion.p>
 
